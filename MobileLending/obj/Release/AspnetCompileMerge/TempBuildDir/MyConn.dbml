@@ -1,0 +1,1447 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="UnitedGeneralInsurance" Class="MyConnDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=52.136.118.215,1433\SQLEXPRESS01;Initial Catalog=UnitedGeneralInsurance;User ID=Power" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="BandsConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblProducts" Member="tblProducts">
+    <Type Name="tblProduct">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="Category" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="IsAuto" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="period" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="frequency" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblCoverTypes" Member="tblCoverTypes">
+    <Type Name="tblCoverType">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblCoverLevies" Member="tblCoverLevies">
+    <Type Name="tblCoverLevy">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CoverId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="IsPercentage" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="LowerLimit" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="UpperLimit" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblCoverAdditionalBenefits" Member="tblCoverAdditionalBenefits">
+    <Type Name="tblCoverAdditionalBenefit">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CoverId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="IsPercentage" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="LowerLimit" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="UpperLimit" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblQuotes" Member="tblQuotes">
+    <Type Name="tblQuote" Id="ID1">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VehicleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ExpiryDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="BodyInjury" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PropertyDamage" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ComprehensiveAndCollisions" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="IsConfirmed" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsConverted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="CoverId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PremiumAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblQuoteCoverLevies" Member="tblQuoteCoverLevies">
+    <Type Name="tblQuoteCoverLevy">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="QuoteId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="IsAuto" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CoverId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CoverLevyid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblQuoteCoverAdditionalBenefits" Member="tblQuoteCoverAdditionalBenefits">
+    <Type Name="tblQuoteCoverAdditionalBenefit">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="QuoteId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="IsAuto" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiefBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CoverId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Additionalbenefitid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblClaims" Member="tblClaims">
+    <Type Name="tblClaim">
+      <Column Name="ClaimId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ClaimNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PolicyId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VehicleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OccurrenceDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="OccurrencePlace" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="UseOfVehicle" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="OccurrenceDriverName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DriverLicense" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="WitnessName" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="WitnessAddress" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="IsDriverorOccupantInjury" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="InjuryParticulars" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="EstRepairCost" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="InsuredItemPicture" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="OccupantsNames" Type="System.String" DbType="VarChar(300)" CanBeNull="true" />
+      <Column Name="IsSettled" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AmountSettled" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblCompany" Member="tblCompanies">
+    <Type Name="tblCompany">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="PostalCode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PostalAddress" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Country" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Telephone1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Telephone2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EmailAddress" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="EmailPassword" Type="System.Data.Linq.Binary" DbType="VarBinary(100)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Currency" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblPolicies" Member="tblPolicies">
+    <Type Name="tblPolicy">
+      <Column Name="PolicyId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="QuoteId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VehicleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CoverId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ExpiryDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="BodyInjury" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PropertyDamage" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ComprehensiveAndCollisions" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PremiumAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalAddBenefits" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalLevies" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="IsConfirmed" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsConverted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PolicyNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PremiumBalance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblClients" Member="tblClients">
+    <Type Name="tblClient">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="PostalAddress" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Professtion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MobileNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SecretQuestion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SecretAnswer" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="RegistrationDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ClientNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RandomCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CompanyId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="IsVerified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="nationalId" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblVehicles" Member="tblVehicles">
+    <Type Name="tblVehicle">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RegistrationNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Make" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="BodyType" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="HorsePower" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Value" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="KilometersCovered" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="BlueBook" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="model" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="VehicleUse" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="YearOfMake" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblPolicyCoverAdditionalBenefits" Member="tblPolicyCoverAdditionalBenefits">
+    <Type Name="tblPolicyCoverAdditionalBenefit">
+      <Column Name="PolicyCoverAdditionalBenefitsId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PolicyId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QuoteId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="IsAuto" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiefBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CoverId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Additionalbenefitid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblQuotePayments" Member="tblQuotePayments">
+    <Type Name="tblQuotePayment">
+      <Column Name="QuotePaymentId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="QuoteId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="invoiceId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Paymode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ReferenceNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="createdOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="createdBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="paymentAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblPremiums" Member="tblPremiums">
+    <Type Name="tblPremium">
+      <Column Name="premiumId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PolicyId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="receiptno" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PaymentAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="Paymode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ReferenceNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="createdOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="createdBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="modifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="modifiedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.trptPolicyStatement" Member="trptPolicyStatements">
+    <Type Name="trptPolicyStatement" Id="ID2">
+      <Column Name="StatementId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PolicyId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="Balance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="receiptNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="paymode" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PaymentDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblUsers" Member="tblUsers">
+    <Type Name="tblUser">
+      <Column Name="UserId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserFullNames" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="RoleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsLocked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Createdon" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="EmailAddress" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="IsAdmin" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.trptQuoteStatement" Member="trptQuoteStatements">
+    <Type Name="trptQuoteStatement" Id="ID3">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="QuoteId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(300)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="Balance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="receiptNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="paymode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PaymentDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblApiUsers" Member="tblApiUsers">
+    <Type Name="tblApiUser">
+      <Column Name="ApiUserId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ApiUsername" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="ConsumerKey" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="ConsumerSecret" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="IsBlocked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CompanyId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblPayments" Member="tblPayments">
+    <Type Name="tblPayment">
+      <Column Name="PaymentId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PaymentTime" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="TransactionId" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PaymentAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ClientNationalId" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ClientName" Type="System.String" DbType="VarChar(300)" CanBeNull="true" />
+      <Column Name="PaymentType" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ReferenceNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblQuotes" Member="tblQuote1s">
+    <Type Name="tblQuote1">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VehicleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ExpiryDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="BodyInjury" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PropertyDamage" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ComprehensiveAndCollisions" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="IsConfirmed" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsConverted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="CoverId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PremiumAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalAddBenefits" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalLevies" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="vehicleCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="isRaisedInvoice" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="quoteBalance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="quoteStatus" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QuoteNumber" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblnotifications" Member="tblnotifications">
+    <Type Name="tblnotification">
+      <Column Name="NotificationId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Message" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="IsRead" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.proc_addVehicle" Method="proc_addVehicle">
+    <Parameter Name="clientId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="regNo" Type="System.Int32" DbType="Int" />
+    <Parameter Name="make" Type="System.DateTime" DbType="SmallDateTime" />
+    <Parameter Name="bodyType" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="yearOfMake" Type="System.DateTime" DbType="SmallDateTime" />
+    <Parameter Name="HorsePower" Parameter="horsePower" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Value" Parameter="value" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="KilometersCovered" Parameter="kilometersCovered" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="model" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="createdBy" Type="System.String" DbType="VarChar(100)" />
+    <ElementType Name="proc_addVehicleResult">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RegistrationNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Make" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="BodyType" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="YearOfMake" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="HorsePower" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Value" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="KilometersCovered" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="BlueBook" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="model" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="VehicleUse" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_addQuoteAndVehicleDetails" Method="proc_addQuoteAndVehicleDetails">
+    <Parameter Name="clientId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="productId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="coverId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="vehicleUse" Type="System.String" DbType="VarChar(150)" />
+    <Parameter Name="regNo" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="make" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="model" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="yearOfMake" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Value" Parameter="value" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="startDate" Type="System.DateTime" DbType="SmallDateTime" />
+    <Parameter Name="createdBy" Type="System.String" DbType="VarChar(100)" />
+    <ElementType IdRef="ID1" />
+  </Function>
+  <Function Name="dbo.proc_getVehicleMakes" Method="proc_getVehicleMakes">
+    <ElementType Name="proc_getVehicleMakesResult">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Make" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_getVehicleModels" Method="proc_getVehicleModels">
+    <ElementType Name="proc_getVehicleModelsResult">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MakeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Model" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_uploadClaim" Method="proc_uploadClaim">
+    <Parameter Name="ClaimId" Parameter="claimId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PolicyId" Parameter="policyId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="OccurrenceDate" Parameter="occurrenceDate" Type="System.DateTime" DbType="SmallDateTime" />
+    <Parameter Name="OccurrencePlace" Parameter="occurrencePlace" Type="System.String" DbType="VarChar(250)" />
+    <Parameter Name="UseOfVehicle" Parameter="useOfVehicle" Type="System.String" DbType="VarChar(150)" />
+    <Parameter Name="OccurrenceDriverName" Parameter="occurrenceDriverName" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="DriverLicense" Parameter="driverLicense" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="WitnessName" Parameter="witnessName" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="WitnessAddress" Parameter="witnessAddress" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="IsDriverorOccupantInjury" Parameter="isDriverorOccupantInjury" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="InjuryParticulars" Parameter="injuryParticulars" Type="System.String" DbType="VarChar(200)" />
+    <Parameter Name="EstRepairCost" Parameter="estRepairCost" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="InsuredItemPicture" Parameter="insuredItemPicture" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="OccupantsNames" Parameter="occupantsNames" Type="System.String" DbType="VarChar(300)" />
+    <Parameter Name="CreatedBy" Parameter="createdBy" Type="System.String" DbType="VarChar(100)" />
+    <ElementType Name="proc_uploadClaimResult">
+      <Column Name="ClaimId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClaimNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PolicyId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VehicleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OccurrenceDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="OccurrencePlace" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="UseOfVehicle" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="OccurrenceDriverName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DriverLicense" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="WitnessName" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="WitnessAddress" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="IsDriverorOccupantInjury" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="InjuryParticulars" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="EstRepairCost" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="InsuredItemPicture" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="OccupantsNames" Type="System.String" DbType="VarChar(300)" CanBeNull="true" />
+      <Column Name="IsSettled" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AmountSettled" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_getClaims" Method="proc_getClaims">
+    <Parameter Name="ClientId" Parameter="clientId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_getClaimsResult">
+      <Column Name="ProductName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CoverName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PolicyId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PolicyNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="VehicleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ExpiryDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="BodyInjury" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PropertyDamage" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ComprehensiveAndCollisions" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="IsConfirmed" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsConverted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="CoverId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PremiumAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalLevies" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="RegistrationNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Make" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="MODEL" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Value" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="BlueBook" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="model1" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="VehicleUse" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="YearOfMake" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ClaimId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClaimNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PolicyId1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VehicleId1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OccurrenceDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="OccurrencePlace" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="UseOfVehicle" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="OccurrenceDriverName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DriverLicense" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="WitnessName" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="WitnessAddress" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="IsDriverorOccupantInjury" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="InjuryParticulars" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="EstRepairCost" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="InsuredItemPicture" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="OccupantsNames" Type="System.String" DbType="VarChar(300)" CanBeNull="true" />
+      <Column Name="IsSettled" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AmountSettled" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CreatedOn1" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy1" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_addSystemUser" Method="proc_addSystemUser">
+    <Parameter Name="UserFullNames" Parameter="userFullNames" Type="System.String" DbType="VarChar(250)" />
+    <Parameter Name="UserName" Parameter="userName" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="emailAddress" Type="System.String" DbType="VarChar(150)" />
+    <Parameter Name="Password" Parameter="password" Type="System.String" DbType="VarChar(250)" />
+    <Parameter Name="RoleId" Parameter="roleId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IsLocked" Parameter="isLocked" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CreatedBy" Parameter="createdBy" Type="System.String" DbType="VarChar(100)" />
+    <ElementType Name="proc_addSystemUserResult">
+      <Column Name="UserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserFullNames" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="RoleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsLocked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Createdon" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="EmailAddress" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_addVehicle" Method="proc_addVehicle1">
+    <Parameter Name="Id" Parameter="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ClientId" Parameter="clientId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="RegistrationNo" Parameter="registrationNo" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Make" Parameter="make" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="BodyType" Parameter="bodyType" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="HorsePower" Parameter="horsePower" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Value" Parameter="value" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="KilometersCovered" Parameter="kilometersCovered" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="BlueBook" Parameter="blueBook" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="CreatedOn" Parameter="createdOn" Type="System.DateTime" DbType="SmallDateTime" />
+    <Parameter Name="CreatedBy" Parameter="createdBy" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="model" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="VehicleUse" Parameter="vehicleUse" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="YearOfMake" Parameter="yearOfMake" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.proc_getPolicy" Method="proc_getPolicy">
+    <Parameter Name="policyId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_getPolicyResult">
+      <Column Name="ProductName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CoverName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClientNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MobileNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PostalAddress" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PolicyId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="VehicleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ExpiryDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="BodyInjury" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PropertyDamage" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ComprehensiveAndCollisions" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PremiumBalance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PolicyNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="TotalPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="IsConfirmed" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsConverted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="CoverId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PremiumAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalLevies" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="RegistrationNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Make" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="MODEL" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Value" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="BlueBook" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="model1" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="VehicleUse" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="YearOfMake" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_getPolicyAddbenefits" Method="proc_getPolicyAddbenefits">
+    <Parameter Name="PolicyId" Parameter="policyId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_getPolicyAddbenefitsResult">
+      <Column Name="BenefitAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="SetupAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PolicyCoverAdditionalBenefitsId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PolicyId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QuoteId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="IsAuto" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiefBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CoverId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Additionalbenefitid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CoverId1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Amount1" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="IsPercentage" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="LowerLimit" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="UpperLimit" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="CreatedOn1" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy1" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn1" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_calculateBasicPremium" Method="proc_calculateBasicPremium">
+    <Parameter Name="vehicleId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="productId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="coverId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_calculateBasicPremiumResult">
+      <Column Name="" Member="Column1" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_addPolicy" Method="proc_addPolicy">
+    <Parameter Name="policyId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="quoteId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="clientId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="vehicleId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="productId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="coverId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="startDate" Type="System.DateTime" DbType="SmallDateTime" />
+    <Parameter Name="BodyInjury" Parameter="bodyInjury" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="PropertyDamage" Parameter="propertyDamage" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="ComprehensiveAndCollisions" Parameter="comprehensiveAndCollisions" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="PremiumAmount" Parameter="premiumAmount" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="TotalAddBenefits" Parameter="totalAddBenefits" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="TotalLevies" Parameter="totalLevies" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="TotalPrice" Parameter="totalPrice" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="CreatedBy" Parameter="createdBy" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="PremiumBalance" Parameter="premiumBalance" Type="System.Decimal" DbType="Money" />
+    <ElementType Name="proc_addPolicyResult">
+      <Column Name="PolicyId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="QuoteId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VehicleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CoverId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ExpiryDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="BodyInjury" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PropertyDamage" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ComprehensiveAndCollisions" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PremiumAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalAddBenefits" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalLevies" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="IsConfirmed" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsConverted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PolicyNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PremiumBalance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_raiseInvoice" Method="proc_raiseInvoice">
+    <Parameter Name="invoiceId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="quoteId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="createdBy" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="invoiceAmount" Type="System.Decimal" DbType="Money" />
+    <ElementType Name="proc_raiseInvoiceResult">
+      <Column Name="InvoiceId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="QuoteId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="invoiceNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="createdOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="createdBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="invoiceAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="modifiedon" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="modifiedby" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_getQuotePayments" Method="proc_getQuotePayments">
+    <Parameter Name="quoteId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_getQuotePaymentsResult">
+      <Column Name="createdon" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="createdby" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QuotePaymentId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ReferenceNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Paymode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="paymentAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VehicleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ExpiryDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="BodyInjury" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PropertyDamage" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ComprehensiveAndCollisions" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="IsConfirmed" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsConverted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn1" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy1" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="CoverId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PremiumAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalAddBenefits" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalLevies" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="vehicleCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="isRaisedInvoice" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="quoteBalance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="quoteStatus" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ProductName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CoverName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ClientNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MobileNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PostalAddress" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="RegistrationNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Make" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="MODEL" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Value" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="BlueBook" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="model1" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="VehicleUse" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="YearOfMake" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_getPremiums" Method="proc_getPremiums">
+    <Parameter Name="policyId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_getPremiumsResult">
+      <Column Name="createdon" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="createdby" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PremiumId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ReferenceNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Paymode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="paymentAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PolicyId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="QuoteId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VehicleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CoverId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ExpiryDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="BodyInjury" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PropertyDamage" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ComprehensiveAndCollisions" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PremiumAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalAddBenefits" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalLevies" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="IsConfirmed" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsConverted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="CreatedOn1" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy1" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PolicyNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PremiumBalance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ProductName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CoverName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ClientNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MobileNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PostalAddress" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="RegistrationNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Make" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="MODEL" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Value" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="BlueBook" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="model1" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="VehicleUse" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="YearOfMake" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_getInvoices" Method="proc_getInvoices">
+    <Parameter Name="invoiceId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_getInvoicesResult">
+      <Column Name="InvoiceId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OriginalQuoteId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="createdon" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="createdby" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Invoicenumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="invoiceamount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VehicleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ExpiryDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="BodyInjury" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PropertyDamage" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ComprehensiveAndCollisions" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="IsConfirmed" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsConverted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn1" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy1" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="CoverId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PremiumAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalAddBenefits" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalLevies" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="vehicleCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="isRaisedInvoice" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="quoteBalance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="quoteStatus" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ProductName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CoverName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ClientNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MobileNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PostalAddress" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="RegistrationNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Make" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="MODEL" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Value" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="BlueBook" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="model1" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="VehicleUse" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="YearOfMake" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_getPolicies" Method="proc_getPolicies">
+    <Parameter Name="clientId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_getPoliciesResult">
+      <Column Name="ProductName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CoverName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ClientNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MobileNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PostalAddress" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PolicyId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="VehicleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ExpiryDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="BodyInjury" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PropertyDamage" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ComprehensiveAndCollisions" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PremiumBalance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PolicyNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="TotalPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="IsConfirmed" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsConverted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="CoverId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PremiumAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalLevies" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="RegistrationNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Make" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="MODEL" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Value" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="BlueBook" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="model1" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="VehicleUse" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="YearOfMake" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_generatePolicyStatement" Method="proc_generatePolicyStatement">
+    <Parameter Name="policyId" Type="System.Int32" DbType="Int" />
+    <ElementType IdRef="ID2" />
+  </Function>
+  <Function Name="dbo.proc_getUsers" Method="proc_getUsers">
+    <Parameter Name="userId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_getUsersResult">
+      <Column Name="UserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserFullNames" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="RoleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsLocked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Createdon" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="EmailAddress" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="IsAdmin" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RoleName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_updateUserPass" Method="proc_updateUserPass">
+    <Parameter Name="userId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="password" Type="System.String" DbType="VarChar(100)" />
+    <ElementType Name="proc_updateUserPassResult">
+      <Column Name="UserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserFullNames" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="RoleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsLocked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Createdon" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="EmailAddress" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="IsAdmin" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_generateQuoteStatement" Method="proc_generateQuoteStatement">
+    <Parameter Name="quoteId" Type="System.Int32" DbType="Int" />
+    <ElementType IdRef="ID3" />
+  </Function>
+  <Function Name="dbo.proc_generateDashboard" Method="proc_generateDashboard">
+    <ElementType Name="proc_generateDashboardResult">
+      <Column Name="clientCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="quoteCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="policyCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sumPremium" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_getHistoryPremiums" Method="proc_getHistoryPremiums">
+    <Parameter Name="refDate" Type="System.DateTime" DbType="SmallDateTime" />
+    <ElementType Name="proc_getHistoryPremiumsResult">
+      <Column Name="PaymentDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="createdby" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PremiumId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ReferenceNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Paymode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="paymentAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PolicyId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="QuoteId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VehicleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CoverId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ExpiryDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="BodyInjury" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PropertyDamage" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ComprehensiveAndCollisions" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PremiumAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalAddBenefits" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalLevies" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="IsConfirmed" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsConverted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy1" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PolicyNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PremiumBalance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ProductName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CoverName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ClientNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MobileNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PostalAddress" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="RegistrationNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Make" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="MODEL" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Value" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="BlueBook" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="model1" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="VehicleUse" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="YearOfMake" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_addapiuser" Method="proc_addapiuser">
+    <Parameter Name="ApiUsername" Parameter="apiUsername" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="consumerkey" Type="System.String" DbType="VarChar(200)" />
+    <Parameter Name="consumerSecret" Type="System.String" DbType="VarChar(200)" />
+    <Parameter Name="isBlocked" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="createdBy" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="companyId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="endPoint" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="emailAddress" Type="System.String" DbType="VarChar(100)" />
+    <ElementType Name="proc_addapiuserResult">
+      <Column Name="ApiUserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ApiUsername" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="ConsumerKey" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="ConsumerSecret" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="IsBlocked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CompanyId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EndPoint" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="EmailAddress" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_getClientInvoices" Method="proc_getClientInvoices">
+    <Parameter Name="clientId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_getClientInvoicesResult">
+      <Column Name="InvoiceId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OriginalQuoteId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="createdon" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="createdby" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Invoicenumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="invoiceamount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VehicleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ExpiryDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="BodyInjury" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PropertyDamage" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ComprehensiveAndCollisions" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="IsConfirmed" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsConverted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn1" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy1" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="CoverId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PremiumAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalAddBenefits" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalLevies" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="vehicleCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="isRaisedInvoice" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="quoteBalance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="quoteStatus" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ProductName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CoverName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ClientNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MobileNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PostalAddress" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="RegistrationNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Make" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="MODEL" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Value" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="BlueBook" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="model1" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="VehicleUse" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="YearOfMake" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_getLastPremiums" Method="proc_getLastPremiums">
+    <Parameter Name="period" Type="System.String" DbType="VarChar(1)" />
+    <ElementType Name="proc_getLastPremiumsResult">
+      <Column Name="name" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="value" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_getPeriodicClaims" Method="proc_getPeriodicClaims">
+    <Parameter Name="period" Type="System.String" DbType="VarChar(1)" />
+    <ElementType Name="proc_getPeriodicClaimsResult">
+      <Column Name="ClaimId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClaimNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PolicyId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VehicleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OccurrenceDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="OccurrencePlace" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="UseOfVehicle" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="OccurrenceDriverName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DriverLicense" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="WitnessName" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="WitnessAddress" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="IsDriverorOccupantInjury" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="InjuryParticulars" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="EstRepairCost" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="InsuredItemPicture" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="OccupantsNames" Type="System.String" DbType="VarChar(300)" CanBeNull="true" />
+      <Column Name="IsSettled" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AmountSettled" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="ClaimsFindings" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="ClaimDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ProductName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CoverName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ClientNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MobileNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PostalAddress" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PolicyId1" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="VehicleId1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ExpiryDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="BodyInjury" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PropertyDamage" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ComprehensiveAndCollisions" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PremiumBalance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PolicyNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="TotalPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="IsConfirmed" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsConverted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn1" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy1" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="CoverId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PremiumAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalLevies" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="RegistrationNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Make" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="MODEL" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Value" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="BlueBook" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="model1" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="VehicleUse" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="YearOfMake" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_getQuotes" Method="proc_getQuotes">
+    <Parameter Name="clientId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="vehicleId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="isConfirmed" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="isConverted" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="coverId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_getQuotesResult">
+      <Column Name="ClientNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MobileNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PostalAddress" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ProductName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CoverName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="VehicleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ExpiryDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="quoteBalance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="BodyInjury" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PropertyDamage" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ComprehensiveAndCollisions" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="IsConfirmed" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsConverted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="CoverId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PremiumAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="RegistrationNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Make" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="Value" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="BlueBook" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="model" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="VehicleUse" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="YearOfMake" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_getTotalBalance" Method="proc_getTotalBalance">
+    <Parameter Name="clientId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_getTotalBalanceResult">
+      <Column Name="totalDue" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_AddEditClient" Method="proc_AddEditClient">
+    <Parameter Name="clientId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="fName" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="mName" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="surname" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="DOBirth" Parameter="dOBirth" Type="System.DateTime" DbType="SmallDateTime" />
+    <Parameter Name="PostalAddress" Parameter="postalAddress" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Professtion" Parameter="professtion" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="MobileNo" Parameter="mobileNo" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Email" Parameter="email" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="SecretQuestion" Parameter="secretQuestion" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="SecretAnswer" Parameter="secretAnswer" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Password" Parameter="password" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="RegistrationDate" Parameter="registrationDate" Type="System.DateTime" DbType="SmallDateTime" />
+    <Parameter Name="ClientNo" Parameter="clientNo" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsVerified" Parameter="isVerified" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="RandomCode" Parameter="randomCode" Type="System.Int32" DbType="Int" />
+    <Parameter Name="CompanyId" Parameter="companyId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="CreatedBy" Parameter="createdBy" Type="System.String" DbType="VarChar(100)" />
+    <ElementType Name="proc_AddEditClientResult">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="PostalAddress" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Professtion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MobileNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SecretQuestion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SecretAnswer" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="RegistrationDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ClientNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RandomCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CompanyId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="IsVerified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="nationalId" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_AddEditClient_BO" Method="proc_AddEditClient_BO">
+    <Parameter Name="clientId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="fName" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="mName" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="surname" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="nationalId" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="DOBirth" Parameter="dOBirth" Type="System.DateTime" DbType="SmallDateTime" />
+    <Parameter Name="PostalAddress" Parameter="postalAddress" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Professtion" Parameter="professtion" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="MobileNo" Parameter="mobileNo" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Email" Parameter="email" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="SecretQuestion" Parameter="secretQuestion" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="SecretAnswer" Parameter="secretAnswer" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Password" Parameter="password" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="RegistrationDate" Parameter="registrationDate" Type="System.DateTime" DbType="SmallDateTime" />
+    <Parameter Name="ClientNo" Parameter="clientNo" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsVerified" Parameter="isVerified" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="RandomCode" Parameter="randomCode" Type="System.Int32" DbType="Int" />
+    <Parameter Name="CompanyId" Parameter="companyId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="CreatedBy" Parameter="createdBy" Type="System.String" DbType="VarChar(100)" />
+    <ElementType Name="proc_AddEditClient_BOResult">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="PostalAddress" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Professtion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MobileNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SecretQuestion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SecretAnswer" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="RegistrationDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ClientNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RandomCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CompanyId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="IsVerified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="nationalId" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_addRawPayment" Method="proc_addRawPayment">
+    <Parameter Name="paymentTime" Type="System.DateTime" DbType="SmallDateTime" />
+    <Parameter Name="transactionId" Type="System.String" DbType="VarChar(200)" />
+    <Parameter Name="paymentAmount" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="clientNationalId" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="clientName" Type="System.String" DbType="VarChar(250)" />
+    <Parameter Name="paymentType" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="referenceNo" Type="System.String" DbType="VarChar(250)" />
+    <ElementType Name="proc_addRawPaymentResult">
+      <Column Name="PaymentId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PaymentTime" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="TransactionId" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PaymentAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ClientNationalId" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ClientName" Type="System.String" DbType="VarChar(300)" CanBeNull="true" />
+      <Column Name="PaymentType" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ReferenceNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_addQuotePayments" Method="proc_addQuotePayments">
+    <Parameter Name="quotepaymentId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="QuoteId" Parameter="quoteId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="InvoiceId" Parameter="invoiceId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="paidamount" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="paymode" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="refnumber" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="createdBy" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="useInvoiceId" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="paymentId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_addQuotePaymentsResult">
+      <Column Name="QuotePaymentId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="QuoteId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="invoiceId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Paymode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ReferenceNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="createdOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="createdBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="paymentAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="paymentId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_addPremiumPayments" Method="proc_addPremiumPayments">
+    <Parameter Name="premiumId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="policyId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="paidamount" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="paymode" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="refnumber" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="createdBy" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="paymentId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_addPremiumPaymentsResult">
+      <Column Name="premiumId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PolicyId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="receiptno" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PaymentAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="Paymode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ReferenceNo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="createdOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="createdBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="modifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="modifiedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_getClientPolicySummary" Method="proc_getClientPolicySummary">
+    <Parameter Name="clientId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="activeOnly" Type="System.Boolean" DbType="Bit" />
+    <ElementType Name="proc_getClientPolicySummaryResult">
+      <Column Name="ProductName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CoverName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PolicyNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ExpiryDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="Balance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="InsuredItem" Type="System.String" DbType="VarChar(554)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_getClientQuoteSummary" Method="proc_getClientQuoteSummary">
+    <Parameter Name="clientId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="activeOnly" Type="System.Boolean" DbType="Bit" />
+    <ElementType Name="proc_getClientQuoteSummaryResult">
+      <Column Name="ProductName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CoverName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="QuoteNumber" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="quoteBalance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ExpiryDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="InsuredItem" Type="System.String" DbType="VarChar(554)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_addEditNotifications" Method="proc_addEditNotifications">
+    <Parameter Name="NotificationId" Parameter="notificationId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ClientId" Parameter="clientId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Message" Parameter="message" Type="System.String" DbType="VarChar(MAX)" />
+    <Parameter Name="IsRead" Parameter="isRead" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CreatedBy" Parameter="createdBy" Type="System.String" DbType="VarChar(100)" />
+    <ElementType Name="proc_addEditNotificationsResult">
+      <Column Name="NotificationId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Message" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="IsRead" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_getNotifications" Method="proc_getNotifications">
+    <Parameter Name="clientId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_getNotificationsResult">
+      <Column Name="NotificationId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Message" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="IsRead" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_generateAppDashboard" Method="proc_generateAppDashboard">
+    <Parameter Name="ClientId" Parameter="clientId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_generateAppDashboardResult">
+      <Column Name="quotes" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="policies" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="claims" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_GetClientDetails" Method="proc_GetClientDetails">
+    <Parameter Name="ClientId" Parameter="clientId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_GetClientDetailsResult">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="PostalAddress" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Professtion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MobileNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SecretQuestion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SecretAnswer" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="RegistrationDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ClientNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RandomCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CompanyId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="IsVerified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="nationalId" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

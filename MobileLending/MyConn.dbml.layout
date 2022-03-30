@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="MyConn">
+  <DataContextMoniker Name="/MyConnDataContext" />
+  <nestedChildShapes>
+    <classShape Id="f75dfe60-d788-4641-b993-82ac056989e4" absoluteBounds="0.5, 0.5, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/MyConnDataContext/tblProduct" />
+      <nestedChildShapes>
+        <elementListCompartment Id="43e49dde-60c1-4a1b-a2e1-75b3c20e83b6" absoluteBounds="0.51499999999999968, 0.96, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ec3cdfb2-7bf5-46e6-a1cf-71447cc7be53" absoluteBounds="2.625, 0.5, 2, 3.1170068359375">
+      <DataClassMoniker Name="/MyConnDataContext/TblClient" />
+      <nestedChildShapes>
+        <elementListCompartment Id="27448d15-6984-4677-a8b9-5125e117dc17" absoluteBounds="2.6399999999999997, 0.96, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2b1e0572-b80e-42c8-b2c9-64563e1f9f61" absoluteBounds="4.75, 0.625, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/MyConnDataContext/TblRegion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="98e70e05-c24e-48e5-af2d-a10ece9d94a3" absoluteBounds="4.765, 1.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c7149ae7-bba4-478b-b928-993169f59f4b" absoluteBounds="4.75, 2.5, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/MyConnDataContext/TblOrder" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3b4f4096-2ea0-4b3f-b451-f6c6539c67bc" absoluteBounds="4.765, 2.96, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7e7ab468-4918-43fd-9cf0-d4cfd3260031" absoluteBounds="0.5, 3.625, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/MyConnDataContext/TblOrderDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="94a62739-eeb9-4103-9dae-24dd4348732b" absoluteBounds="0.51500000000000012, 4.085, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6cf29a9f-ce6f-4156-b1e8-853eec7a6733" absoluteBounds="2.75, 3.75, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/MyConnDataContext/tblOutlet" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d24d111a-2caa-432d-b2fa-31858038d09b" absoluteBounds="2.765, 4.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

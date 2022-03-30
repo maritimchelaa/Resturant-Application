@@ -1,0 +1,1182 @@
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\ApplicationInsights.config
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\csc.exe
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\vbc.exe
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\MobileLending.dll.config
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\MobileLending.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\MobileLending.pdb
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Antlr3.Runtime.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\EntityFramework.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\EntityFramework.SqlServer.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AI.Web.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Newtonsoft.Json.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Owin.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Net.Http.Formatting.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Helpers.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Http.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Http.Owin.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Http.WebHost.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Mvc.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Optimization.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Razor.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.WebPages.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\WebGrease.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AI.Web.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Newtonsoft.Json.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Net.Http.Formatting.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Helpers.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Http.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Http.WebHost.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Mvc.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Optimization.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Razor.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.WebPages.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Antlr3.Runtime.pdb
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\EntityFramework.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\EntityFramework.SqlServer.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Http.Owin.xml
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\obj\Release\MobileLending.dll
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\obj\Release\MobileLending.pdb
+C:\Users\BRIGHT\documents\visual studio 2015\Projects\MobileLending\MobileLending\obj\Release\MobileLending.csprojResolveAssemblyReference.cache
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\ApplicationInsights.config
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\csc.exe
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\vbc.exe
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\MobileLending.dll.config
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\MobileLending.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\MobileLending.pdb
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Antlr3.Runtime.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\EntityFramework.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\EntityFramework.SqlServer.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AI.Web.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Newtonsoft.Json.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Owin.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Net.Http.Formatting.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Helpers.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Http.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Http.Owin.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Http.WebHost.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Mvc.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Optimization.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Razor.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.WebPages.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\WebGrease.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AI.Web.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Newtonsoft.Json.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Net.Http.Formatting.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Helpers.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Http.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Http.WebHost.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Mvc.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Optimization.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Razor.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.WebPages.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Antlr3.Runtime.pdb
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\EntityFramework.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\EntityFramework.SqlServer.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\bin\System.Web.Http.Owin.xml
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\obj\Release\MobileLending.csprojResolveAssemblyReference.cache
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\obj\Release\MobileLending.dll
+C:\Users\BRIGHT\Documents\Tomcat\Visual Studio 2015\Projects\MobileLending\MobileLending\obj\Release\MobileLending.pdb
+D:\Backups\MobileLending\MobileLending\bin\ApplicationInsights.config
+D:\Backups\MobileLending\MobileLending\bin\roslyn\csc.exe
+D:\Backups\MobileLending\MobileLending\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Backups\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Backups\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Backups\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Backups\MobileLending\MobileLending\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Backups\MobileLending\MobileLending\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Backups\MobileLending\MobileLending\bin\roslyn\System.Collections.Immutable.dll
+D:\Backups\MobileLending\MobileLending\bin\roslyn\System.Reflection.Metadata.dll
+D:\Backups\MobileLending\MobileLending\bin\roslyn\vbc.exe
+D:\Backups\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe
+D:\Backups\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe.config
+D:\Backups\MobileLending\MobileLending\bin\MobileLending.dll.config
+D:\Backups\MobileLending\MobileLending\bin\MobileLending.dll
+D:\Backups\MobileLending\MobileLending\bin\MobileLending.pdb
+D:\Backups\MobileLending\MobileLending\bin\Antlr3.Runtime.dll
+D:\Backups\MobileLending\MobileLending\bin\EntityFramework.dll
+D:\Backups\MobileLending\MobileLending\bin\EntityFramework.SqlServer.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.AI.Web.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.Owin.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.Owin.Security.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.Web.Infrastructure.dll
+D:\Backups\MobileLending\MobileLending\bin\Newtonsoft.Json.dll
+D:\Backups\MobileLending\MobileLending\bin\Owin.dll
+D:\Backups\MobileLending\MobileLending\bin\System.Net.Http.Formatting.dll
+D:\Backups\MobileLending\MobileLending\bin\System.Web.Helpers.dll
+D:\Backups\MobileLending\MobileLending\bin\System.Web.Http.dll
+D:\Backups\MobileLending\MobileLending\bin\System.Web.Http.Owin.dll
+D:\Backups\MobileLending\MobileLending\bin\System.Web.Http.WebHost.dll
+D:\Backups\MobileLending\MobileLending\bin\System.Web.Mvc.dll
+D:\Backups\MobileLending\MobileLending\bin\System.Web.Optimization.dll
+D:\Backups\MobileLending\MobileLending\bin\System.Web.Razor.dll
+D:\Backups\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.dll
+D:\Backups\MobileLending\MobileLending\bin\System.Web.WebPages.dll
+D:\Backups\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.dll
+D:\Backups\MobileLending\MobileLending\bin\WebGrease.dll
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.xml
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.AI.Web.xml
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.xml
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.xml
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Backups\MobileLending\MobileLending\bin\Newtonsoft.Json.xml
+D:\Backups\MobileLending\MobileLending\bin\System.Net.Http.Formatting.xml
+D:\Backups\MobileLending\MobileLending\bin\System.Web.Helpers.xml
+D:\Backups\MobileLending\MobileLending\bin\System.Web.Http.xml
+D:\Backups\MobileLending\MobileLending\bin\System.Web.Http.WebHost.xml
+D:\Backups\MobileLending\MobileLending\bin\System.Web.Mvc.xml
+D:\Backups\MobileLending\MobileLending\bin\System.Web.Optimization.xml
+D:\Backups\MobileLending\MobileLending\bin\System.Web.Razor.xml
+D:\Backups\MobileLending\MobileLending\bin\System.Web.WebPages.xml
+D:\Backups\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.xml
+D:\Backups\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.xml
+D:\Backups\MobileLending\MobileLending\bin\Antlr3.Runtime.pdb
+D:\Backups\MobileLending\MobileLending\bin\EntityFramework.xml
+D:\Backups\MobileLending\MobileLending\bin\EntityFramework.SqlServer.xml
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.Owin.xml
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.Owin.Security.xml
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.xml
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Backups\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Backups\MobileLending\MobileLending\bin\System.Web.Http.Owin.xml
+D:\Backups\MobileLending\MobileLending\obj\Release\MobileLending.csprojResolveAssemblyReference.cache
+D:\Backups\MobileLending\MobileLending\obj\Release\MobileLending.dll
+D:\Backups\MobileLending\MobileLending\obj\Release\MobileLending.pdb
+D:\Backups\APIs\MobileLending\MobileLending\bin\ApplicationInsights.config
+D:\Backups\APIs\MobileLending\MobileLending\bin\roslyn\csc.exe
+D:\Backups\APIs\MobileLending\MobileLending\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Backups\APIs\MobileLending\MobileLending\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Backups\APIs\MobileLending\MobileLending\bin\roslyn\System.Collections.Immutable.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\roslyn\System.Reflection.Metadata.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\roslyn\vbc.exe
+D:\Backups\APIs\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe
+D:\Backups\APIs\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe.config
+D:\Backups\APIs\MobileLending\MobileLending\bin\MobileLending.dll.config
+D:\Backups\APIs\MobileLending\MobileLending\bin\MobileLending.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\MobileLending.pdb
+D:\Backups\APIs\MobileLending\MobileLending\bin\Antlr3.Runtime.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\EntityFramework.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\EntityFramework.SqlServer.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.AI.Web.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.Owin.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.Owin.Security.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.Web.Infrastructure.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Newtonsoft.Json.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Owin.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Net.Http.Formatting.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Web.Helpers.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Web.Http.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Web.Http.Owin.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Web.Http.WebHost.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Web.Mvc.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Web.Optimization.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Web.Razor.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Web.WebPages.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\WebGrease.dll
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.AI.Web.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\Newtonsoft.Json.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Net.Http.Formatting.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Web.Helpers.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Web.Http.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Web.Http.WebHost.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Web.Mvc.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Web.Optimization.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Web.Razor.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Web.WebPages.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\Antlr3.Runtime.pdb
+D:\Backups\APIs\MobileLending\MobileLending\bin\EntityFramework.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\EntityFramework.SqlServer.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.Owin.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.Owin.Security.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Backups\APIs\MobileLending\MobileLending\bin\System.Web.Http.Owin.xml
+D:\Backups\APIs\MobileLending\MobileLending\obj\Release\MobileLending.csprojResolveAssemblyReference.cache
+D:\Backups\APIs\MobileLending\MobileLending\obj\Release\MobileLending.dll
+D:\Backups\APIs\MobileLending\MobileLending\obj\Release\MobileLending.pdb
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\ApplicationInsights.config
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\csc.exe
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\System.Collections.Immutable.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\System.Reflection.Metadata.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\vbc.exe
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe.config
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\MobileLending.dll.config
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\MobileLending.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\MobileLending.pdb
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Antlr3.Runtime.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\EntityFramework.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\EntityFramework.SqlServer.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AI.Web.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Web.Infrastructure.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Newtonsoft.Json.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Owin.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Net.Http.Formatting.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Helpers.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Http.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Http.Owin.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Http.WebHost.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Mvc.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Optimization.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Razor.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.WebPages.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\WebGrease.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AI.Web.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Newtonsoft.Json.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Net.Http.Formatting.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Helpers.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Http.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Http.WebHost.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Mvc.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Optimization.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Razor.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.WebPages.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Antlr3.Runtime.pdb
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\EntityFramework.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\EntityFramework.SqlServer.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Http.Owin.xml
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\obj\Release\MobileLending.csprojResolveAssemblyReference.cache
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\obj\Release\MobileLending.dll
+D:\Reference\Development\Gabriel\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\obj\Release\MobileLending.pdb
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\ApplicationInsights.config
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\csc.exe
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\System.Collections.Immutable.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\System.Reflection.Metadata.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\vbc.exe
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe.config
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\MobileLending.dll.config
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\MobileLending.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\MobileLending.pdb
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Antlr3.Runtime.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\EntityFramework.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\EntityFramework.SqlServer.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AI.Web.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Web.Infrastructure.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Newtonsoft.Json.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Owin.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Net.Http.Formatting.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Helpers.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Http.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Http.Owin.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Http.WebHost.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Mvc.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Optimization.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Razor.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.WebPages.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\WebGrease.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AI.Web.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Newtonsoft.Json.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Net.Http.Formatting.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Helpers.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Http.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Http.WebHost.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Mvc.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Optimization.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Razor.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.WebPages.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Antlr3.Runtime.pdb
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\EntityFramework.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\EntityFramework.SqlServer.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\bin\System.Web.Http.Owin.xml
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\obj\Release\MobileLending.csprojResolveAssemblyReference.cache
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\obj\Release\MobileLending.dll
+D:\Backups\Ecobiz\Api Backup with Schedules\MobileLendingAPI_Ecobiz\MobileLending\MobileLending\obj\Release\MobileLending.pdb
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\ApplicationInsights.config
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\roslyn\csc.exe
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\roslyn\System.Collections.Immutable.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\roslyn\System.Reflection.Metadata.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\roslyn\vbc.exe
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe.config
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\MobileLending.dll.config
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\MobileLending.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\MobileLending.pdb
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Antlr3.Runtime.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\EntityFramework.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\EntityFramework.SqlServer.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.Web.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.Web.Infrastructure.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Newtonsoft.Json.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Owin.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Net.Http.Formatting.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Web.Helpers.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Web.Http.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Web.Http.Owin.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Web.Http.WebHost.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Web.Mvc.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Web.Optimization.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Web.Razor.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Web.WebPages.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\WebGrease.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.Web.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Newtonsoft.Json.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Net.Http.Formatting.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Web.Helpers.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Web.Http.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Web.Http.WebHost.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Web.Mvc.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Web.Optimization.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Web.Razor.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Web.WebPages.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Antlr3.Runtime.pdb
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\EntityFramework.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\EntityFramework.SqlServer.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\bin\System.Web.Http.Owin.xml
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\obj\Release\MobileLending.csprojResolveAssemblyReference.cache
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\obj\Release\MobileLending.dll
+D:\Backups\UTS AFRICA\UGI API\UGI API\MobileLending\MobileLending\obj\Release\MobileLending.pdb
+D:\Backups\UGI API\MobileLending\MobileLending\bin\ApplicationInsights.config
+D:\Backups\UGI API\MobileLending\MobileLending\bin\roslyn\csc.exe
+D:\Backups\UGI API\MobileLending\MobileLending\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Backups\UGI API\MobileLending\MobileLending\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Backups\UGI API\MobileLending\MobileLending\bin\roslyn\System.Collections.Immutable.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\roslyn\System.Reflection.Metadata.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\roslyn\vbc.exe
+D:\Backups\UGI API\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe
+D:\Backups\UGI API\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe.config
+D:\Backups\UGI API\MobileLending\MobileLending\bin\MobileLending.dll.config
+D:\Backups\UGI API\MobileLending\MobileLending\bin\MobileLending.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\MobileLending.pdb
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Antlr3.Runtime.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\EntityFramework.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\EntityFramework.SqlServer.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.Web.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.Web.Infrastructure.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Newtonsoft.Json.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Owin.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Net.Http.Formatting.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Web.Helpers.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Web.Http.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Web.Http.Owin.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Web.Http.WebHost.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Web.Mvc.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Web.Optimization.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Web.Razor.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Web.WebPages.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\WebGrease.dll
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.Web.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Newtonsoft.Json.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Net.Http.Formatting.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Web.Helpers.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Web.Http.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Web.Http.WebHost.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Web.Mvc.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Web.Optimization.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Web.Razor.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Web.WebPages.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Antlr3.Runtime.pdb
+D:\Backups\UGI API\MobileLending\MobileLending\bin\EntityFramework.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\EntityFramework.SqlServer.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Backups\UGI API\MobileLending\MobileLending\bin\System.Web.Http.Owin.xml
+D:\Backups\UGI API\MobileLending\MobileLending\obj\Release\MobileLending.csproj.CoreCompileInputs.cache
+D:\Backups\UGI API\MobileLending\MobileLending\obj\Release\MobileLending.csproj.CopyComplete
+D:\Backups\UGI API\MobileLending\MobileLending\obj\Release\MobileLending.dll
+D:\Backups\UGI API\MobileLending\MobileLending\obj\Release\MobileLending.pdb
+D:\Backups\UGI API\MobileLending\MobileLending\obj\Release\MobileLending.csproj.AssemblyReference.cache
+E:\UGI API\MobileLending\MobileLending\bin\ApplicationInsights.config
+E:\UGI API\MobileLending\MobileLending\bin\roslyn\csc.exe
+E:\UGI API\MobileLending\MobileLending\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\UGI API\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\UGI API\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\UGI API\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\UGI API\MobileLending\MobileLending\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\UGI API\MobileLending\MobileLending\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\UGI API\MobileLending\MobileLending\bin\roslyn\System.Collections.Immutable.dll
+E:\UGI API\MobileLending\MobileLending\bin\roslyn\System.Reflection.Metadata.dll
+E:\UGI API\MobileLending\MobileLending\bin\roslyn\vbc.exe
+E:\UGI API\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe
+E:\UGI API\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe.config
+E:\UGI API\MobileLending\MobileLending\bin\MobileLending.dll.config
+E:\UGI API\MobileLending\MobileLending\bin\MobileLending.dll
+E:\UGI API\MobileLending\MobileLending\bin\MobileLending.pdb
+E:\UGI API\MobileLending\MobileLending\bin\Antlr3.Runtime.dll
+E:\UGI API\MobileLending\MobileLending\bin\EntityFramework.dll
+E:\UGI API\MobileLending\MobileLending\bin\EntityFramework.SqlServer.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.Agent.Intercept.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.Web.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.Web.Infrastructure.dll
+E:\UGI API\MobileLending\MobileLending\bin\Newtonsoft.Json.dll
+E:\UGI API\MobileLending\MobileLending\bin\Owin.dll
+E:\UGI API\MobileLending\MobileLending\bin\System.Net.Http.Formatting.dll
+E:\UGI API\MobileLending\MobileLending\bin\System.Web.Helpers.dll
+E:\UGI API\MobileLending\MobileLending\bin\System.Web.Http.dll
+E:\UGI API\MobileLending\MobileLending\bin\System.Web.Http.Owin.dll
+E:\UGI API\MobileLending\MobileLending\bin\System.Web.Http.WebHost.dll
+E:\UGI API\MobileLending\MobileLending\bin\System.Web.Mvc.dll
+E:\UGI API\MobileLending\MobileLending\bin\System.Web.Optimization.dll
+E:\UGI API\MobileLending\MobileLending\bin\System.Web.Razor.dll
+E:\UGI API\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.dll
+E:\UGI API\MobileLending\MobileLending\bin\System.Web.WebPages.dll
+E:\UGI API\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.dll
+E:\UGI API\MobileLending\MobileLending\bin\WebGrease.dll
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.xml
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.Web.xml
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.xml
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.xml
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\UGI API\MobileLending\MobileLending\bin\Newtonsoft.Json.xml
+E:\UGI API\MobileLending\MobileLending\bin\System.Net.Http.Formatting.xml
+E:\UGI API\MobileLending\MobileLending\bin\System.Web.Helpers.xml
+E:\UGI API\MobileLending\MobileLending\bin\System.Web.Http.xml
+E:\UGI API\MobileLending\MobileLending\bin\System.Web.Http.WebHost.xml
+E:\UGI API\MobileLending\MobileLending\bin\System.Web.Mvc.xml
+E:\UGI API\MobileLending\MobileLending\bin\System.Web.Optimization.xml
+E:\UGI API\MobileLending\MobileLending\bin\System.Web.Razor.xml
+E:\UGI API\MobileLending\MobileLending\bin\System.Web.WebPages.xml
+E:\UGI API\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.xml
+E:\UGI API\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.xml
+E:\UGI API\MobileLending\MobileLending\bin\Antlr3.Runtime.pdb
+E:\UGI API\MobileLending\MobileLending\bin\EntityFramework.xml
+E:\UGI API\MobileLending\MobileLending\bin\EntityFramework.SqlServer.xml
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.xml
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.xml
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.xml
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.xml
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.xml
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.xml
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.xml
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.xml
+E:\UGI API\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\UGI API\MobileLending\MobileLending\bin\System.Web.Http.Owin.xml
+E:\UGI API\MobileLending\MobileLending\obj\Release\MobileLending.csproj.CoreCompileInputs.cache
+E:\UGI API\MobileLending\MobileLending\obj\Release\MobileLending.csproj.CopyComplete
+E:\UGI API\MobileLending\MobileLending\obj\Release\MobileLending.dll
+E:\UGI API\MobileLending\MobileLending\obj\Release\MobileLending.pdb
+E:\UGI API\MobileLending\MobileLending\obj\Release\MobileLending.csproj.AssemblyReference.cache
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\obj\Release\MobileLending.csproj.AssemblyReference.cache
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\obj\Release\MobileLending.csproj.CoreCompileInputs.cache
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\obj\Release\MobileLending.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\obj\Release\MobileLending.pdb
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\ApplicationInsights.config
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\roslyn\csc.exe
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\roslyn\System.Collections.Immutable.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\roslyn\System.Reflection.Metadata.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\roslyn\vbc.exe
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe.config
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\MobileLending.dll.config
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\MobileLending.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\MobileLending.pdb
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Antlr3.Runtime.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\EntityFramework.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\EntityFramework.SqlServer.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.Web.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Web.Infrastructure.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Newtonsoft.Json.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Owin.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Net.Http.Formatting.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Web.Helpers.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.Owin.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.WebHost.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Web.Mvc.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Web.Optimization.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Web.Razor.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\WebGrease.dll
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.Web.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Newtonsoft.Json.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Net.Http.Formatting.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Web.Helpers.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.WebHost.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Web.Mvc.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Web.Optimization.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Web.Razor.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Antlr3.Runtime.pdb
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\EntityFramework.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\EntityFramework.SqlServer.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.Owin.xml
+E:\Deliveroo API\Deliveroo\MobileLending\MobileLending\obj\Release\MobileLending.csproj.CopyComplete
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\obj\Release\MobileLending.csproj.AssemblyReference.cache
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\obj\Release\MobileLending.csproj.CoreCompileInputs.cache
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\obj\Release\MobileLending.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\obj\Release\MobileLending.pdb
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\ApplicationInsights.config
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\csc.exe
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\System.Collections.Immutable.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\System.Reflection.Metadata.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\vbc.exe
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe.config
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\MobileLending.dll.config
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\MobileLending.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\MobileLending.pdb
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Antlr3.Runtime.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\EntityFramework.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\EntityFramework.SqlServer.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.Web.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Web.Infrastructure.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Newtonsoft.Json.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Owin.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Net.Http.Formatting.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Helpers.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.Owin.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.WebHost.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Mvc.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Optimization.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Razor.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\WebGrease.dll
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.Web.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Newtonsoft.Json.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Net.Http.Formatting.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Helpers.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.WebHost.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Mvc.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Optimization.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Razor.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Antlr3.Runtime.pdb
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\EntityFramework.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\EntityFramework.SqlServer.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.Owin.xml
+E:\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\obj\Release\MobileLending.csproj.CopyComplete
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\ApplicationInsights.config
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\roslyn\csc.exe
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\roslyn\System.Collections.Immutable.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\roslyn\System.Reflection.Metadata.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\roslyn\vbc.exe
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe.config
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\MobileLending.dll.config
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\MobileLending.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\MobileLending.pdb
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Antlr3.Runtime.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\EntityFramework.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\EntityFramework.SqlServer.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.Web.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Web.Infrastructure.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Newtonsoft.Json.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Owin.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Net.Http.Formatting.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Web.Helpers.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.Owin.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.WebHost.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Web.Mvc.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Web.Optimization.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Web.Razor.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\WebGrease.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.Web.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Newtonsoft.Json.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Net.Http.Formatting.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Web.Helpers.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.WebHost.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Web.Mvc.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Web.Optimization.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Web.Razor.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Antlr3.Runtime.pdb
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\EntityFramework.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\EntityFramework.SqlServer.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.Owin.xml
+E:\Naomi\Deliveroo\MobileLending\MobileLending\obj\Release\MobileLending.csproj.CoreCompileInputs.cache
+E:\Naomi\Deliveroo\MobileLending\MobileLending\obj\Release\MobileLending.csproj.CopyComplete
+E:\Naomi\Deliveroo\MobileLending\MobileLending\obj\Release\MobileLending.dll
+E:\Naomi\Deliveroo\MobileLending\MobileLending\obj\Release\MobileLending.pdb
+E:\Naomi\Deliveroo\MobileLending\MobileLending\obj\Release\MobileLending.csproj.AssemblyReference.cache
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\ApplicationInsights.config
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\csc.exe
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\System.Collections.Immutable.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\System.Reflection.Metadata.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\vbc.exe
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\roslyn\VBCSCompiler.exe.config
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\MobileLending.dll.config
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\MobileLending.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\MobileLending.pdb
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Antlr3.Runtime.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\EntityFramework.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\EntityFramework.SqlServer.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.Web.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Web.Infrastructure.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Newtonsoft.Json.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Owin.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Net.Http.Formatting.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Helpers.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.Owin.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.WebHost.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Mvc.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Optimization.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Razor.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\WebGrease.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.DependencyCollector.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.Web.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AI.WindowsServer.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.ApplicationInsights.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Newtonsoft.Json.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Net.Http.Formatting.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Helpers.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.WebHost.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Mvc.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Optimization.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Razor.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.Deployment.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.WebPages.Razor.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Antlr3.Runtime.pdb
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\EntityFramework.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\EntityFramework.SqlServer.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Google.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\bin\System.Web.Http.Owin.xml
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\obj\Release\MobileLending.csproj.AssemblyReference.cache
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\obj\Release\MobileLending.csproj.CoreCompileInputs.cache
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\obj\Release\MobileLending.csproj.CopyComplete
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\obj\Release\MobileLending.dll
+C:\Micropoint\Micropoint Docs\Projects\Deliveroo\MobileLending\MobileLending\obj\Release\MobileLending.pdb

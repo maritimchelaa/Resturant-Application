@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TestApp" Class="MyConnDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=52.136.118.215,1433\SQLEXPRESS01;Initial Catalog=TestApp;User ID=Power" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="BandsConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblProducts" Member="tblProducts">
+    <Type Name="tblProduct">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="Category" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="IsAuto" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="period" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="frequency" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblClients" Member="TblClients">
+    <Type Name="TblClient">
+      <Column Name="ClientId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CfirstName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CLastName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PrimaryPhoneNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SecondPhoneNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EmailAdress" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="RegionId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AreaId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Remarks" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblRegions" Member="TblRegions">
+    <Type Name="TblRegion">
+      <Column Name="RegionId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="RegionName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="RegionDescription" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblOrders" Member="TblOrders">
+    <Type Name="TblOrder">
+      <Column Name="OrderId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OutletId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OrderNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="NoOfItems" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Subtotal" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DeliveryFee" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="OrderPaymentBalance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="OrderStatus" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblOrderDetails" Member="TblOrderDetails">
+    <Type Name="TblOrderDetail">
+      <Column Name="OrderDetailId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="OrderId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Price" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="Subtotal" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblOutlets" Member="tblOutlets">
+    <Type Name="tblOutlet">
+      <Column Name="OutletId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="OutletName" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="OutletLocation" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AreaId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RegionId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DeliveryFee" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.proc_getproductCategories" Method="proc_getproductCategories">
+    <Parameter Name="categoryId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_getproductCategoriesResult">
+      <Column Name="PCategoryId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CategoryName" Type="System.String" DbType="NChar(100)" CanBeNull="true" />
+      <Column Name="CategoryDescription" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="categoryImage" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_getproducts" Method="proc_getproducts">
+    <Parameter Name="productId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_getproductsResult">
+      <Column Name="ProductId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProductName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ProductDescription" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="IsTierBasedPrice" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Price" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CategoryId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="productImage" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="CategoryName" Type="System.String" DbType="NChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_addEditClient" Method="proc_addEditClient">
+    <Parameter Name="ClientId" Parameter="clientId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="CfirstName" Parameter="cfirstName" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="CLastName" Parameter="cLastName" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="PrimaryPhoneNo" Parameter="primaryPhoneNo" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="SecondPhoneNo" Parameter="secondPhoneNo" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="EmailAdress" Parameter="emailAdress" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Password" Parameter="password" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="RegionId" Parameter="regionId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AreaId" Parameter="areaId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Remarks" Parameter="remarks" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="CreatedBy" Parameter="createdBy" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Delete" Parameter="delete" Type="System.Boolean" DbType="Bit" />
+    <ElementType Name="proc_addEditClientResult">
+      <Column Name="ClientId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CfirstName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CLastName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PrimaryPhoneNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SecondPhoneNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EmailAdress" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="RegionId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AreaId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Remarks" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_getAreasByRegionId" Method="proc_getAreasByRegionId">
+    <Parameter Name="regionid" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_getAreasByRegionIdResult">
+      <Column Name="AreaId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RegionId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AreaName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AreaDescription" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_getregions" Method="proc_getregions">
+    <Parameter Name="regionid" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_getregionsResult">
+      <Column Name="RegionId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RegionName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="RegionDescription" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_AddEditOrderDetails" Method="proc_AddEditOrderDetails">
+    <Parameter Name="OrderDetailId" Parameter="orderDetailId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="OrderId" Parameter="orderId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ProductId" Parameter="productId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Quantity" Parameter="quantity" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Price" Parameter="price" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="Subtotal" Parameter="subtotal" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="CreatedBy" Parameter="createdBy" Type="System.String" DbType="VarChar(200)" />
+    <Parameter Name="Delete" Parameter="delete" Type="System.Boolean" DbType="Bit" />
+    <ElementType Name="proc_AddEditOrderDetailsResult">
+      <Column Name="OrderDetailId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OrderId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Price" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="Subtotal" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_AddEditOrders" Method="proc_AddEditOrders">
+    <Parameter Name="OrderId" Parameter="orderId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ClientId" Parameter="clientId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="OutletId" Parameter="outletId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="OrderNo" Parameter="orderNo" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="NoOfItems" Parameter="noOfItems" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Subtotal" Parameter="subtotal" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DeliveryFee" Parameter="deliveryFee" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="TotalPrice" Parameter="totalPrice" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="OrderPaymentBalance" Parameter="orderPaymentBalance" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="OrderStatus" Parameter="orderStatus" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="CreatedBy" Parameter="createdBy" Type="System.String" DbType="VarChar(200)" />
+    <ElementType Name="proc_AddEditOrdersResult">
+      <Column Name="OrderId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OutletId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OrderNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="NoOfItems" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Subtotal" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DeliveryFee" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="OrderPaymentBalance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="OrderStatus" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.proc_getOrders" Method="proc_getOrders">
+    <Parameter Name="ClientId" Parameter="clientId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="proc_getOrdersResult">
+      <Column Name="OrderId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OutletId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OrderNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="NoOfItems" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Subtotal" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DeliveryFee" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="OrderPaymentBalance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="OrderStatus" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="OutLetName" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Proc_getOrderdetails" Method="Proc_getOrderdetails">
+    <Parameter Name="OrderId" Parameter="orderId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="Proc_getOrderdetailsResult">
+      <Column Name="OrderDetailId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OrderId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Price" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="Subtotal" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ProductName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Proc_getAllOutlets" Method="Proc_getAllOutlets">
+    <Parameter Name="outLetId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="Proc_getAllOutletsResult">
+      <Column Name="OutletId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OutletName" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="OutletLocation" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AreaId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RegionId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DeliveryFee" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="RegionName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>
